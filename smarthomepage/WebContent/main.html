@@ -3,14 +3,32 @@
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
+<script>
+	function logout() {
+		location.href = "login.html";
+	}
+	function mypage() {
+		location.href = "info.html";
+	}
+
+	</script>
 </head>
 <body>
+	<div style="margin-top: 20px">
+			<button onclick="logout()"> Logout </button>
+		</div>
+	<div style="margin-top: 20px">
+				<button onclick="mypage()"> Mypage </button>
+		</div>
+
 	<table style="border: 1px solid blue; width: 100%; height: 700px;">
 		<tr class="row" style="border: 1px solid blue; height: 20%">
 			<td class="col" style="border: 1px solid blue"></td>
 		</tr>
-		<tr class="row" style="border: 1px solid blue; height: 80%">
+		<tr class="row" style="border: 1px solid blue; height: 80%;">
 			<td class="col" style="border: 1px solid blue"></td>
+	</tr>
 	</table>
+	
 </body>
 </html>
